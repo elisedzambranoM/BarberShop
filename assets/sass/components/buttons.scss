@@ -1,0 +1,23 @@
+.page-item:first-child .page-link {
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    color: #6e6c70;
+    font-weight: bold;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    color: #222323;
+    font-weight: bold;
+}
+
+.page-item.active .page-link {
+    background-color: #6c6e70;
+    border-color: #6c6e70;
+}
+
+.paginator__button--color {
+    color: #222323;
+    font-weight: bold;
+}

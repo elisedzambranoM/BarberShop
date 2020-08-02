@@ -1,0 +1,34 @@
+.header__title {
+    position: absolute;
+    top: 35%;
+    color: $white;
+    left: 32%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.header__arrow {
+    position: absolute;
+    color: #ffffff;
+    bottom: 10%;
+    left: 50%;
+    font-size: 50px;
+
+}
+
+
+@media only screen and (max-width:360px) {
+    .header__image {
+        height: 400px;
+    }
+
+    .header__title {
+        font-size: 1.5rem;
+    }
+
+    .header__icono {
+        font-size: 2rem;
+    }
+}
